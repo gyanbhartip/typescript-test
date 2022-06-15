@@ -1,0 +1,41 @@
+.new-task-input-form {
+    width: 90%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.new-task-input-box {
+    width: 100%;
+    border-radius: 3rem;
+    padding: 1.25rem 3.125rem;
+    font-size: 1.5rem;
+    border: none;
+    transition: 0.2s;
+    box-shadow: inset 0 0 5px black;
+}
+
+.new-task-input-box:focus {
+    box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.5);
+}
+
+.new-task-submit-button {
+    position: absolute;
+    width: 3.1rem;
+    height: 3.1rem;
+    margin: 0.75rem;
+    border-radius: 3rem;
+    right: 0px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #86cdbb;
+    color: #fff;
+    transition: 0.2s all;
+    box-shadow: 0 0 10px black;
+}
+
+.new-task-submit-button:active {
+    transform: scale(0.8);
+    box-shadow: 0 0 5px black;
+}
